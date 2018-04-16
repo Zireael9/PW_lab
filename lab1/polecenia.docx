@@ -1,0 +1,68 @@
+1.Opracowaæ program, który wylicza wartoœæ wyra¿enia:
+Dane: a, b typu float
+
+Z1:15
+2.Opracowaæ program obliczania wartoœci wyra¿enia
+
+
+	
+	dla zmiennych x, y typu double. Je¿eli wartoœci T nie mo¿na obliczyæ wyprowadziæ
+            tekst "Brak rozwi¹zania.".
+Z2:5
+3.Opracowaæ program zamiany temperatury wyra¿onej w stopniach Celsjusza na stopnie Fahrenheita i odwrotnie.
+
+
+TC =  5/9  ( TF  – 32) 
+TF =  9/5 TC + 32
+
+Program powinien pytaæ o kierunek konwersji, wczytywaæ temperaturê TC lub TF 
+i wyprowadzaæ wartoœæ przeliczon¹ wraz z jednostk¹.
+Z4:1
+4.Opracowaæ program, który oblicza wartoœæ sumy
+
+
+(n: int,  S, a : double)
+
+Z4:5
+5.Opracowaæ program, który oblicza wartoœæ T.
+
+
+
+
+ 	(a, b,c : double, n, m : int)
+ 
+Z4:7
+6.Opracowaæ program tablicowania funkcji Z(x,y) w przedzia³ach [x1,x2] z krokiem kx i [y1,y2] z krokiem ky.
+
+
+
+	Jako wynik wyprowadziæ w kolejnych wierszach x,y : Z(x,y). Dla wartoœci x,y, dla 
+            których funkcji Z nie mo¿na obliczyæ wyprowadziæ tekst "Nie istnieje".
+	(x1, x2, y1, y2, kx, ky : float)
+
+
+
+Z4:12
+7.Opracowaæ program, który wczytuje dwie tablice jednowymiarowe A , B obie 
+n-elementowe (n < 100) zawieraj¹ce liczby typu double i nastêpnie wyprowadza elementy tablicy C zdefiniowane jako
+
+                                     2 * Ai + Bi  +1      gdy Ai  >  Bi
+	Ci  =     
+                                     Ai  –  Bi   – 1         gdy Ai  ?   Bi  
+
+           Kolejnoœæ danych : n, A0, ... An-1, B0, ... Bn-1   (n : int, pozosta³e : double)  
+
+
+
+
+Z4:15
+8.Opracowaæ program, który wczytuje dwie tablice jednowymiarowe A , B obie 
+n-elementowe (n < 100) zawieraj¹ce liczby typu double i nastêpnie wyprowadza elementy tablicy C zdefiniowane jako
+
+                                    sin ( Ai )  +  i
+ 	Ci =    
+                                    cos ( Bi )  –  Ai
+
+           gdy mianownik = 0 to u³amek = –1
+           Kolejnoœæ danych : n, A0, ... An-1, B0, ... Bn-1   (n : int, pozosta³e : double)  
+
