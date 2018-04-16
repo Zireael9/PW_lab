@@ -2,13 +2,11 @@
 Rozwiązanie zadań z przedmiotu Programowanie Wizualne (Informatyka, PUT)
 
 
+**LAB1** - opis w dokumencie w folderze
 
-PN
+**LAB2**
 
-LAB1 - opis w dokumencie w folderze
-
-LAB2
-Z5:6
+PNZ5:6
 Opracować program, który sumuje wiersze lub kolumny macierzy. Program akceptuje 4 polecenia:
 1. N | n : wczytuje macierz elementów typu double o  m wierszach i n kolumnach 
        (m, n < 20),
@@ -17,7 +15,7 @@ Opracować program, który sumuje wiersze lub kolumny macierzy. Program akceptuj
 4. Q | q : kończy działanie.
 Polecenia W i K nie powinny być realizowane gdy nie zostało uprzednio wykonane polecenie N.
 
-PO
+> Wszystko ponizej to zadania PO
 
 7:2
 Opracować program zawierający definicję klasy Tekst, która zawiera składową prywatną napis typu string. W klasie tej zdefiniować 2 konstruktory:
@@ -31,7 +29,8 @@ W programie głównym należy utworzyć dwa obiekty klasy Tekst. Obiekt T1 za po
 Opracować program gry Labirynt. Program wyświetla plan labiryntu z zaznaczoną odrębnym kolorem pozycją początkową pionka i polem docelowym. Następnie program umożliwia przesuwanie pionka za pomocą klawiszy strzałek nie dopuszczając do wejścia na pole zakazane. Osiągnięcie pola docelowego kończy program.
 W programie należy zdefiniować klasę plansza, która wyświetla plan labiryntu i akceptuje polecenia przekazywane za pomocą klawiszy strzałek.
 
-LAB3
+**LAB3**
+
 7:3
 Opracować program, który zawiera definicję klasy Beczka o składowych prywatnych Pojemnosc i Zawartosc (liczby całkowite) . W klasie tej zdefiniować konstruktor dwuargumentowy oraz przeciążyć operatory + i * . 
 Argumentami operatora + jest obiekt klasy Beczka i liczba  całkowita.  Wykonanie operatora polega na zwiększeniu wartości składowej Zawartosc o podaną liczbę całkowitą, o ile suma tych dwu wartości nie przekracza wartości składowej Pojemnosc (w tym przypadku wynikiem operatora jest 0). W przeciwnym razie wartość składowej Zawartosc ma się stać równa wartości składowej Pojemnosc, a wynikiem operatora jest ilość płynu, która nie zmieściła się w beczce.
@@ -69,7 +68,8 @@ drukarka kolorowa jest zawsze lepsza (większa) od czarno-białej,
 gdy dwie drukarki mają taką samą składową Kolor, to porównuje się prędkości druku (im większa tym lepsza).
 W programie głównym utworzyć kolekcję danych List<Drukarka>, wpisać do niej kilka przykładowych obiektów klasy Drukarka, posortować te obiekty i wyprowadzić listę posortowanych obiektów.
 
-LAB4
+**LAB4**
+
 9:4
 Opracować program symulujący loterię, w którą gra 3 graczy. Klasa Loteria udostępnia odpowiednią delegację i 3 zdarzenia L1, L2, L3. Każdy obiekt klasy Gracz rejestruje losowo swoją funkcję Zakład w jednym z tych zdarzeń. Następnie wykonywana jest funkcja Losowanie z klasy Loteria, która wybiera losowo jedno z wymienionych zdarzeń i zgłasza je. Gracze wygrywający otrzymują po1 punkcie – dodania punktu dokonuje funkcja Zakład. Program kończy się po uzyskaniu przez dowolnego gracza 100 punktów (wyświetlić wynik końcowy wszystkich graczy).
 
@@ -102,7 +102,8 @@ e. słowa o najmniejszej liczbie liter i słowa o największej liczbie liter spo
 Opracować program gry Bieg, w której dwa pionki (o różnych kolorach) posuwają się z lewej do prawej strony okna konsoli (każdy w swoim wierszu). W każdym ruchu pionek przesuwa się o losową liczbę pozycji z przedziału (-8, 12). Zakończenie gry następuje, gdy jeden z pionków osiąga cel (kolumnę 60) - komunikat sygnalizujący zakończenie należy wyświetlić poniżej pionków stosując litery takiego samego koloru jak kolor pionka - zwycięzcy. 
 W programie należy zdefiniować klasę Pionek, która posiada konstruktor trójargumentowy (kolor, numer wiersza, obiekt synchronizujący) oraz funkcję Skok, która oblicza nową pozycję i wyświetla pionek synchronizując dostęp do konsoli (lock).  Dla każdego pionka należy utworzyć odrębny wątek. Kolejne ruchy pionków powinny odbywać się co 500 ms.
 
-LAB5
+**LAB5**
+
 7:9
 Plik wejściowy zawiera ciąg liczb całkowitych oddzielonych spacjami. Opracować program, który z takiego pliku wejściowego (zapytać o nazwę) przepisuje do pliku wyjściowego (też zapytać o nazwę) tylko te liczby całkowite, które są większe od 137. 
 
@@ -119,7 +120,8 @@ K : zakończenie programu.
 Do obsługi opcji zastosować kolekcję Dictionary<char, FunOp>.
 9:4
 
-LAB6
+**LAB6**
+
 9:10
 Opracować program, który na podstawie tablicy T1, zawierającej 1M liczb typu double wygenerowanych losowo, wyznacza tablicę T2, której elementy przyjmują wartości:
 
